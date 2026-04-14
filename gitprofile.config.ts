@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -51,9 +51,9 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Public Portfolio', description: 'Modular Data Analytics & Python Projects', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
+    linkedin: 'https://www.linkedin.com/in/konstantinlokotunin/',
     x: 'arif_szn',
     mastodon: 'arifszn@mastodon.social',
     researchGate: '',
