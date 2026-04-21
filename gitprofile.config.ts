@@ -122,18 +122,6 @@ const CONFIG = {
       companyLink: 'https://www.pwc.at',
     },
   ],
-    languages: [
-    {
-      language: 'German',
-      level: 'Native, C2',
-      language: 'Russian',
-      level: 'Native, C2',
-      language: 'English',
-      level: 'Fluent, C2',
-      language: 'French',
-      level: 'Fluent, C1',
-    },
-  ],
     certifications: [
     {
       name: 'IELTS overall score: 8.0 (CEFR C1)',
