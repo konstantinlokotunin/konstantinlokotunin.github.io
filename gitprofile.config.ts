@@ -13,9 +13,9 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: '⚡ Featured Projects',
+      header: '✨ Featured Projects',
       automatic: {
-        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -24,29 +24,13 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['konstantinlokotunin/Enerlytics', 'konstantinlokotunin/AtmosPulse', 'konstantinlokotunin/MetricForge', 'konstantinlokotunin/HabitFlux'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: '',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
-        {
-          title: '',
-          description:
-            '',
-          imageUrl:
-            '',
-          link: '',
-        },
       ],
     },
   },
@@ -214,7 +198,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `⚡ Built with data, designed for insight`,
+  footer: `⚡ Built with data, designed for insight.`,
 
   enablePWA: true,
 };
