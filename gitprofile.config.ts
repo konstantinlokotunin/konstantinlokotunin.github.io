@@ -96,14 +96,12 @@ const CONFIG = {
       degree: 'Diploma in Data Engineering & AI Development',
       from: '2026',
       to: 'Present',
-      institutionLink: 'https://codersbay.wien',
     },
     {
       institution: 'Sciences Po Paris',
       degree: 'Double Master of Arts in International Energy',
       from: '2019',
       to: '2021',
-      institutionLink: 'https://www.sciencespo.fr/en/',
     },
   ],
     experiences: [
