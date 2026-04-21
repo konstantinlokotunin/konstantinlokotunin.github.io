@@ -14,6 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: '✨ Featured Projects',
+      mode: 'manual',
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
